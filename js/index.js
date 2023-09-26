@@ -22,7 +22,7 @@ form === null || form === void 0 ? void 0 : form.addEventListener("submit", (eve
         alert('o local precisa ter mais que  03 letras');
         return;
     }
-    const resposta = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=64ab62870295924816d11c27160ab99b&lang=pt_br&units=metric`);
+    const resposta = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=(colocar a chave API obrigatorio)&lang=pt_br&units=metric`);
     const dados = yield resposta.json(); //console.log(dados);
     const info = {
         temperatura: Math.round(dados.main.temp),
