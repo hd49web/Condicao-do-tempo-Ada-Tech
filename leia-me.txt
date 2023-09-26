@@ -1,0 +1,16 @@
+api com latitude , longitude de São Paulo
+idioma portugues 
+e chave api
+
+
+https://api.openweathermap.org/data/2.5/weather?q=sao%20paulo%20&at=23.5558&lon=46.6396&appid=64ab62870295924816d11c27160ab99b&lang=pt_br&units=metricmetric
+
+
+
+
+projeto node:   npm init --y
+instalar o typescript :  npm install -D typescript
+iniciar o typescript no sistema : npx tsc --init
+tsconfig.json :  outdir : /js pasta qua vai salvar  e noEmitError para não emitir erro 
+
+comando para transpilar de typescript para javascript  : npx tsc --watch 
