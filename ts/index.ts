@@ -19,7 +19,7 @@ if(localizacao.length < 3 ){
     alert ('o local precisa ter mais que  03 letras');
     return;
 } 
-const resposta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=64ab62870295924816d11c27160ab99b&lang=pt_br&units=metric`);
+const resposta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=(colocar a chave da  API - obrigatorio)&lang=pt_br&units=metric`);
 const dados = await resposta.json();//console.log(dados);
 
 const info ={
