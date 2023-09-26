@@ -3,7 +3,7 @@ idioma portugues
 e chave api
 
 
-https://api.openweathermap.org/data/2.5/weather?q=sao%20paulo%20&at=23.5558&lon=46.6396&appid=64ab62870295924816d11c27160ab99b&lang=pt_br&units=metricmetric
+https://api.openweathermap.org/data/2.5/weather?q=sao%20paulo%20&at=23.5558&lon=46.6396&appid=(chave do API OBRIGATORIO)b&lang=pt_br&units=metricmetric
 
 
 
